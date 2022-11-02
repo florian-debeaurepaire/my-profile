@@ -1,0 +1,118 @@
+body{
+    background-color:#bfdcfc;
+    margin: 0;
+    font-weight: 100px;
+    color: #873e23;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 50px;
+}
+/* demander plus d'info pour la balise <a */
+
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 70px;
+    color:#2082b0 ;
+}
+h1{
+    background-color:#873e23 ;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color:#fddea7 ;
+}
+
+
+h2{
+    background-color:#873e23 ;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color:#fddea7 ;
+}
+
+p{
+    font-size: 25px;
+}
+/* probleme avec bio-text */
+#bio-text p{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/* design of the boxes  */
+
+.container{
+    width: 700px;
+    margin: 80px auto;
+}
+
+.boxes {
+    background-color: #fddea7;      
+    margin: 30px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ppicture{
+    width: 300px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.blue-button{    
+    background-color:#2082b0 ;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    overflow: visible;
+    background-clip: border-box;
+    touch-action: manipulation;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.blue-button:hover{
+    filter: brightness(1.5);
+    color: white; 
+}
+
+.ytvideo{
+    border-radius: 10px;
+}
+
+.last {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+    .container{
+        width: 500px;
+    }
+    .ytvideo{
+        width: 200px;
+    }
+    .ppicture{
+        width: 200px;
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+    h1{
+        padding: 1px 1px;
+        border-radius: 10px;
+    }
+}
